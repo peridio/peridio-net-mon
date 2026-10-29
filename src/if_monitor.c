@@ -618,6 +618,8 @@
      if (rc == MNL_CB_OK)
          write_buff(&buff);
 
+     ei_x_free(&buff);
+
      return rc;
  }
 
